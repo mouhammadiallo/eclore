@@ -74,7 +74,7 @@
           </div>
           <div class="hero-stats">
             <div>
-              <div class="hero-stat-value">37+</div>
+              <div class="hero-stat-value">55+</div>
               <div class="hero-stat-label">Clients satisfaits</div>
             </div>
             <div>
@@ -147,7 +147,9 @@
           <!-- Netflix -->
           <div class="streaming-card reveal reveal-delay-1">
             <div class="streaming-badge">🔥 Populaire</div>
-            <div class="streaming-icon">🎬</div>
+            <div class="streaming-icon">
+              <img src="netflix.png" alt="netflix" />
+            </div>
             <h3 class="streaming-name">Netflix Premium</h3>
             <p class="streaming-desc">
               Accès complet 4K UHD, jusqu'à 4 écrans simultanés, téléchargements
@@ -169,7 +171,9 @@
           <!-- Prime Video -->
           <div class="streaming-card reveal reveal-delay-2">
             <div class="streaming-badge">⭐ Exclusif</div>
-            <div class="streaming-icon">📺</div>
+            <div class="streaming-icon">
+              <img src="primevideo.png" alt="prime" />
+            </div>
             <h3 class="streaming-name">Prime Video</h3>
             <p class="streaming-desc">
               Films, séries et contenus originaux Amazon. Qualité Full HD & 4K
@@ -183,6 +187,33 @@
             <button
               class="btn btn-primary btn-sm"
               onclick="openStreamingOrder('Prime Video')"
+            >
+              Commander
+            </button>
+          </div>
+          <div class="streaming-card reveal reveal-delay-2">
+            <div class="streaming-badge">🎧 Populaire</div>
+
+            <div class="streaming-icon">
+              <img src="spotify.png" alt="Spotify" />
+            </div>
+
+            <h3 class="streaming-name">Spotify Premium</h3>
+
+            <p class="streaming-desc">
+              Musique sans publicité, écoute hors connexion et qualité audio
+              élevée. Millions de titres et podcasts.
+            </p>
+
+            <div class="streaming-price">
+              <span class="streaming-price-label">À partir de</span>
+              <span class="streaming-price-value">1 500 F</span>
+              <span class="streaming-price-unit">/mois</span>
+            </div>
+
+            <button
+              class="btn btn-primary btn-sm"
+              onclick="openStreamingOrder('Spotify Premium')"
             >
               Commander
             </button>
@@ -646,9 +677,15 @@
               <span>Sénégal</span>
             </div>
             <div class="footer-socials">
-              <a href="#" class="footer-social" aria-label="Facebook">f</a>
-              <a href="#" class="footer-social" aria-label="Instagram">ig</a>
-              <a href="#" class="footer-social" aria-label="TikTok">tk</a>
+              <a href="#" class="footer-social"
+                ><img src="facebook.png" alt="facebook"
+              /></a>
+              <a href="#" class="footer-social" aria-label="Instagram"
+                ><img src="instagram.png" alt="instagram"
+              /></a>
+              <a href="#" class="footer-social" aria-label="TikTok"
+                ><img src="tiktok.png" alt="tiktok"
+              /></a>
             </div>
           </div>
         </div>
