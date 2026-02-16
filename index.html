@@ -1,889 +1,1155 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Eclore Service — Votre partenaire numérique. Activation, création, formation et divertissement en un seul endroit.">
-  <title>Eclore Service — Solutions Numériques sans Limites</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eclore Service — Votre partenaire numérique. Activation, création, formation et divertissement en un seul endroit."
+    />
+    <title>Eclore Service — Solutions Numériques sans Limites</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background Animated Gradient -->
+    <div class="bg-gradient-animated"></div>
 
-  <!-- Background Animated Gradient -->
-  <div class="bg-gradient-animated"></div>
-
-  <!-- ===== HEADER ===== -->
-  <header class="header" id="header">
-    <div class="container">
-      <a href="#" class="logo">
-        <div class="logo-icon">✦</div>
-        <span>Eclore <span class="gradient-text">Service</span></span>
-      </a>
-
-      <nav class="nav" id="nav">
-        <a href="#services">Services</a>
-        <a href="#streaming">Streaming</a>
-        <a href="#why">Pourquoi nous</a>
-        <a href="#testimonials">Avis</a>
-        <a href="#faq">FAQ</a>
-      </nav>
-
-      <a href="#contact" class="btn btn-primary header-cta">Contact</a>
-
-      <button class="burger" id="burger" aria-label="Menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
-
-  <!-- Mobile Nav -->
-  <div class="mobile-nav" id="mobileNav">
-    <a href="#services" class="mobile-nav-link">Services</a>
-    <a href="#streaming" class="mobile-nav-link">Streaming</a>
-    <a href="#why" class="mobile-nav-link">Pourquoi nous</a>
-    <a href="#testimonials" class="mobile-nav-link">Avis</a>
-    <a href="#faq" class="mobile-nav-link">FAQ</a>
-    <a href="#contact" class="btn btn-primary">Contact</a>
-  </div>
-
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="hero">
-    <div class="container">
-      <div class="hero-content">
-        <div class="hero-badge">✦ Agence Numérique Complète</div>
-        <h1 class="hero-title">
-          <span class="gradient-text">Vos Solutions Numériques</span><br>sans limites
-        </h1>
-        <p class="hero-subtitle">
-          Activation, Création, Formation et Divertissement en un seul endroit. Une équipe structurée à votre service.
-        </p>
-        <div class="hero-actions">
-          <a href="#services" class="btn btn-primary">
-            Découvrir nos services
-            <span>→</span>
-          </a>
-          <a href="#streaming" class="btn btn-secondary">
-            Offres Streaming
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div>
-            <div class="hero-stat-value">37+</div>
-            <div class="hero-stat-label">Clients satisfaits</div>
-          </div>
-          <div>
-            <div class="hero-stat-value">98%</div>
-            <div class="hero-stat-label">Taux de satisfaction</div>
-          </div>
-          <div>
-            <div class="hero-stat-value">24/7</div>
-            <div class="hero-stat-label">Support réactif</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-mockup">
-        <div class="mockup-glow"></div>
-        <div class="mockup-laptop">
-          <div class="laptop-screen">
-            <div class="laptop-screen-content">
-              <div class="screen-topbar">
-                <div class="screen-dot"></div>
-                <div class="screen-dot"></div>
-                <div class="screen-dot"></div>
-              </div>
-              <div class="screen-dashboard">
-                <div class="screen-widget">
-                  <span class="widget-label">Revenus</span>
-                  <span class="widget-value">232k</span>
-                  <div class="widget-bar"><div class="widget-bar-fill" style="--fill: 78%"></div></div>
-                </div>
-                <div class="screen-widget">
-                  <span class="widget-label">Clients</span>
-                  <span class="widget-value">39</span>
-                  <div class="widget-bar"><div class="widget-bar-fill" style="--fill: 65%"></div></div>
-                </div>
-                <div class="screen-widget">
-                  <span class="widget-label">Performance Globale</span>
-                  <span class="widget-value">+34%</span>
-                  <div class="widget-bar"><div class="widget-bar-fill" style="--fill: 88%"></div></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="laptop-base"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== STREAMING SECTION ===== -->
-  <section class="section streaming" id="streaming">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">Nouveautés Streaming</div>
-        <h2 class="section-title">Divertissement <span class="gradient-text">Premium</span></h2>
-        <p class="section-subtitle">Accédez aux meilleures plateformes de streaming avec nos offres exclusives et compétitives.</p>
-      </div>
-
-      <div class="streaming-cards">
-        <!-- Netflix -->
-        <div class="streaming-card reveal reveal-delay-1">
-          <div class="streaming-badge">🔥 Populaire</div>
-          <div class="streaming-icon">🎬</div>
-          <h3 class="streaming-name">Netflix Premium</h3>
-          <p class="streaming-desc">Accès complet 4K UHD, jusqu'à 4 écrans simultanés, téléchargements illimités.</p>
-          <div class="streaming-price">
-            <span class="streaming-price-label">À partir de</span>
-            <span class="streaming-price-value">2 500 F</span>
-            <span class="streaming-price-unit">/mois</span>
-          </div>
-          <button class="btn btn-primary btn-sm" onclick="openStreamingOrder('Netflix Premium')">Commander</button>
-        </div>
-
-        <!-- Prime Video -->
-        <div class="streaming-card reveal reveal-delay-2">
-          <div class="streaming-badge">⭐ Exclusif</div>
-          <div class="streaming-icon">📺</div>
-          <h3 class="streaming-name">Prime Video</h3>
-          <p class="streaming-desc">Films, séries et contenus originaux Amazon. Qualité Full HD & 4K disponible.</p>
-          <div class="streaming-price">
-            <span class="streaming-price-label">À partir de</span>
-            <span class="streaming-price-value">2 500 F</span>
-            <span class="streaming-price-unit">/mois</span>
-          </div>
-          <button class="btn btn-primary btn-sm" onclick="openStreamingOrder('Prime Video')">Commander</button>
-        </div>
-      </div>
-
-      <!-- Comparison -->
-      <div class="comparison-table reveal">
-        <table>
-          <thead>
-            <tr>
-              <th>Fonctionnalité</th>
-              <th>Netflix Premium</th>
-              <th>Prime Video</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Qualité 4K UHD</td>
-              <td><span class="check-icon">✓</span></td>
-              <td><span class="check-icon">✓</span></td>
-            </tr>
-            <tr>
-              <td>Écrans simultanés</td>
-              <td>4 écrans</td>
-              <td>3 écrans</td>
-            </tr>
-            <tr>
-              <td>Téléchargements</td>
-              <td><span class="check-icon">✓</span></td>
-              <td><span class="check-icon">✓</span></td>
-            </tr>
-            <tr>
-              <td>Contenus originaux</td>
-              <td><span class="check-icon">✓</span></td>
-              <td><span class="check-icon">✓</span></td>
-            </tr>
-            <tr>
-              <td>Sans pub</td>
-              <td><span class="check-icon">✓</span></td>
-              <td><span class="check-icon">✓</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- Social Proof -->
-      <div class="social-proof">
-        <div class="proof-card reveal reveal-delay-1">
-          <div class="proof-value" data-count="350">0</div>
-          <div class="proof-label">Abonnés actifs</div>
-        </div>
-        <div class="proof-card reveal reveal-delay-2">
-          <div class="proof-value" data-count="99">0</div>
-          <div class="proof-label">% Satisfaction</div>
-        </div>
-        <div class="proof-card reveal reveal-delay-3">
-          <div class="proof-value" data-count="24">0</div>
-          <div class="proof-label">Support 24h/24</div>
-        </div>
-      </div>
-
-      <!-- Reviews -->
-      <div class="reviews-row">
-        <div class="review-card reveal reveal-delay-1">
-          <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Netflix fonctionne parfaitement depuis 6 mois. Aucun souci, service fiable et rapide."</p>
-          <span class="review-author">— Aminata Diop</span>
-        </div>
-        <div class="review-card reveal reveal-delay-2">
-          <div class="review-stars">★★★★★</div>
-          <p class="review-text">"Prime Video activé en 10 minutes. Prix imbattable et support très réactif par WhatsApp."</p>
-          <span class="review-author">— Moussa Kaw</span>
-        </div>
-        <div class="review-card reveal reveal-delay-3">
-          <div class="review-stars">★★★★★</div>
-          <p class="review-text">"J'ai recommandé Eclore Service à toute ma famille. Service fiable et professionnel."</p>
-          <span class="review-author">— Fatou Sy</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SERVICES SECTION ===== -->
-  <section class="section" id="services">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">Nos Services</div>
-        <h2 class="section-title">Des solutions <span class="gradient-text">sur mesure</span></h2>
-        <p class="section-subtitle">De l'activation à la formation, nous couvrons tous vos besoins numériques avec expertise.</p>
-      </div>
-
-      <div class="services-grid">
-        <!-- Activation -->
-        <div class="service-card reveal reveal-delay-1" data-service="activation" data-tilt>
-          <div class="service-icon violet">🔑</div>
-          <h3 class="service-name">Activation de Comptes</h3>
-          <p class="service-desc">Création et activation de tous types de comptes numériques, personnels ou professionnels.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-
-        <!-- Installation -->
-        <div class="service-card reveal reveal-delay-2" data-service="installation" data-tilt>
-          <div class="service-icon cyan">💻</div>
-          <h3 class="service-name">Installation Logicielle</h3>
-          <p class="service-desc">Installation Windows, Office, antivirus et logiciels professionnels sur site ou à distance.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-
-        <!-- Studio -->
-        <div class="service-card reveal reveal-delay-3" data-service="studio" data-tilt>
-          <div class="service-icon pink">🎨</div>
-          <h3 class="service-name">Studio de Création</h3>
-          <p class="service-desc">Logos, flyers, sites web, motion design. Des créations visuelles haut de gamme.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-
-        <!-- Décodage -->
-        <div class="service-card reveal reveal-delay-4" data-service="decodage" data-tilt>
-          <div class="service-icon green">📱</div>
-          <h3 class="service-name">Décodage & Mobile</h3>
-          <p class="service-desc">Déverrouillage et configuration de smartphones, tablettes et appareils mobiles.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-
-        <!-- Formation -->
-        <div class="service-card reveal reveal-delay-5" data-service="formation" data-tilt>
-          <div class="service-icon orange">📚</div>
-          <h3 class="service-name">Formation Pro</h3>
-          <p class="service-desc">Formations personnalisées en bureautique, design, développement et marketing digital.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-
-        <!-- Streaming (renvoi) -->
-        <div class="service-card reveal reveal-delay-5" data-service="streaming-service" data-tilt>
-          <div class="service-icon blue">📡</div>
-          <h3 class="service-name">Streaming & IPTV</h3>
-          <p class="service-desc">Abonnements Netflix, Prime Video, et solutions IPTV premium avec support continu.</p>
-          <span class="service-link">Commander <span>→</span></span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== WHY CHOOSE US ===== -->
-  <section class="section" id="why">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">Nos Atouts</div>
-        <h2 class="section-title">Pourquoi choisir <span class="gradient-text">Eclore Service</span> ?</h2>
-        <p class="section-subtitle">Une agence structurée, avec une équipe dédiée à votre satisfaction.</p>
-      </div>
-
-      <div class="why-grid">
-        <div class="why-card reveal reveal-delay-1">
-          <div class="why-icon">👥</div>
-          <div class="why-value" data-count="500">0</div>
-          <div class="why-label">Clients accompagnés</div>
-        </div>
-        <div class="why-card reveal reveal-delay-2">
-          <div class="why-icon">⭐</div>
-          <div class="why-value" data-count="98" data-suffix="%">0</div>
-          <div class="why-label">Taux de satisfaction</div>
-        </div>
-        <div class="why-card reveal reveal-delay-3">
-          <div class="why-icon">⚡</div>
-          <div class="why-value" data-count="15" data-suffix="min">0</div>
-          <div class="why-label">Temps de réponse moyen</div>
-        </div>
-        <div class="why-card reveal reveal-delay-4">
-          <div class="why-icon">🏆</div>
-          <div class="why-value" data-count="3" data-suffix=" ans">0</div>
-          <div class="why-label">D'expertise certifiée</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== TESTIMONIALS ===== -->
-  <section class="section" id="testimonials">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">Témoignages</div>
-        <h2 class="section-title">Ce que disent <span class="gradient-text">nos clients</span></h2>
-        <p class="section-subtitle">La confiance de nos clients est notre plus grande fierté.</p>
-      </div>
-
-      <div class="testimonials-grid">
-        <div class="testimonial-card reveal reveal-delay-1">
-          <p class="testimonial-quote">"Eclore Service a activé tous mes comptes professionnels en moins de 24h. Un service irréprochable que je recommande à 100%."</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">AB</div>
-            <div>
-              <div class="testimonial-name">Abdoulaye B.</div>
-              <div class="testimonial-role">Entrepreneur</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card reveal reveal-delay-2">
-          <p class="testimonial-quote">"Le studio de création a conçu mon logo et mes supports marketing. Résultat professionnel, au-delà de mes attentes."</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">MN</div>
-            <div>
-              <div class="testimonial-name">Mariama N.</div>
-              <div class="testimonial-role">Gérante de boutique</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card reveal reveal-delay-3">
-          <p class="testimonial-quote">"La formation bureautique m'a permis de décrocher un emploi. L'équipe est patiente et très professionnelle."</p>
-          <div class="testimonial-author">
-            <div class="testimonial-avatar">ID</div>
-            <div>
-              <div class="testimonial-name">Ibrahima D.</div>
-              <div class="testimonial-role">Comptable</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="section" id="faq">
-    <div class="container">
-      <div class="section-header reveal">
-        <div class="section-label">FAQ</div>
-        <h2 class="section-title">Questions <span class="gradient-text">fréquentes</span></h2>
-        <p class="section-subtitle">Retrouvez les réponses aux questions les plus posées par nos clients.</p>
-      </div>
-
-      <div class="faq-list">
-        <div class="faq-item reveal">
-          <button class="faq-question">
-            Comment passer commande ?
-            <span class="faq-chevron">▾</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-content">
-              Cliquez sur le service souhaité, remplissez le formulaire de commande et soumettez-le. Notre équipe vous contactera par WhatsApp dans les 15 minutes pour finaliser votre demande.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item reveal reveal-delay-1">
-          <button class="faq-question">
-            Quels sont les modes de paiement acceptés ?
-            <span class="faq-chevron">▾</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-content">
-              Nous acceptons Orange Money, Wave, Free Money, et les paiements en espèces. Le paiement se fait avant ou après la livraison du service selon le type de commande.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item reveal reveal-delay-2">
-          <button class="faq-question">
-            Les abonnements streaming sont-ils fiables ?
-            <span class="faq-chevron">▾</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-content">
-              Oui, tous nos abonnements sont des comptes premium officiels garantis. Nous assurons un support continu et un remplacement gratuit en cas de problème.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item reveal reveal-delay-3">
-          <button class="faq-question">
-            Proposez-vous des services à distance ?
-            <span class="faq-chevron">▾</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-content">
-              Absolument ! La majorité de nos services sont disponibles à distance : installation logicielle via TeamViewer/AnyDesk, activation de comptes, formations en ligne, et livraison d'abonnements streaming.
-            </div>
-          </div>
-        </div>
-
-        <div class="faq-item reveal reveal-delay-4">
-          <button class="faq-question">
-            Quel est le délai de livraison ?
-            <span class="faq-chevron">▾</span>
-          </button>
-          <div class="faq-answer">
-            <div class="faq-answer-content">
-              Les activations et abonnements streaming sont livrés en 10–30 minutes. Les installations logicielles prennent 1 à 2 heures. Les projets de création varient selon la complexité (1 à 7 jours).
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer" id="contact">
-    <div class="container">
-      <!-- CTA -->
-      <div class="footer-cta reveal">
-        <h2 class="footer-cta-title">Prêt à lancer <span class="gradient-text">votre projet</span> ?</h2>
-        <p class="footer-cta-sub">Contactez-nous et obtenez une réponse en moins de 15 minutes.</p>
-        <a href="https://wa.me/221779411495" target="_blank" class="btn btn-primary">
-          Nous contacter par WhatsApp
-          <span>💬</span>
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+      <div class="container">
+        <a href="#" class="logo">
+          <div class="logo-icon">✦</div>
+          <span>Eclore <span class="gradient-text">Service</span></span>
         </a>
+
+        <nav class="nav" id="nav">
+          <a href="#services">Services</a>
+          <a href="#streaming">Streaming</a>
+          <a href="#why">Pourquoi nous</a>
+          <a href="#testimonials">Avis</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-primary header-cta">Contact</a>
+
+        <button class="burger" id="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
+    </header>
 
-      <!-- Main Footer -->
-      <div class="footer-main">
-        <div class="footer-brand">
-          <div class="logo">
-            <div class="logo-icon">✦</div>
-            <span>Eclore <span class="gradient-text">Service</span></span>
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#streaming" class="mobile-nav-link">Streaming</a>
+      <a href="#why" class="mobile-nav-link">Pourquoi nous</a>
+      <a href="#testimonials" class="mobile-nav-link">Avis</a>
+      <a href="#faq" class="mobile-nav-link">FAQ</a>
+      <a href="#contact" class="btn btn-primary">Contact</a>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge">✦ Agence Numérique Complète</div>
+          <h1 class="hero-title">
+            <span class="gradient-text">Vos Solutions Numériques</span
+            ><br />sans limites
+          </h1>
+          <p class="hero-subtitle">
+            Activation, Création, Formation et Divertissement en un seul
+            endroit. Une équipe structurée à votre service.
+          </p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-primary">
+              Découvrir nos services
+              <span>→</span>
+            </a>
+            <a href="#streaming" class="btn btn-secondary">
+              Offres Streaming
+            </a>
           </div>
-          <p>Agence de services numériques structurée avec une équipe dédiée. Activation, création, formation et divertissement — tout en un seul endroit.</p>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-value">37+</div>
+              <div class="hero-stat-label">Clients satisfaits</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">98%</div>
+              <div class="hero-stat-label">Taux de satisfaction</div>
+            </div>
+            <div>
+              <div class="hero-stat-value">24/7</div>
+              <div class="hero-stat-label">Support réactif</div>
+            </div>
+          </div>
         </div>
 
-        <div>
-          <h4 class="footer-heading">Services</h4>
-          <div class="footer-links">
-            <a href="#services">Activation de Comptes</a>
-            <a href="#services">Installation Logicielle</a>
-            <a href="#services">Studio de Création</a>
-            <a href="#services">Décodage & Mobile</a>
-            <a href="#services">Formation Pro</a>
+        <div class="hero-mockup">
+          <div class="mockup-glow"></div>
+          <div class="mockup-laptop">
+            <div class="laptop-screen">
+              <div class="laptop-screen-content">
+                <div class="screen-topbar">
+                  <div class="screen-dot"></div>
+                  <div class="screen-dot"></div>
+                  <div class="screen-dot"></div>
+                </div>
+                <div class="screen-dashboard">
+                  <div class="screen-widget">
+                    <span class="widget-label">Revenus</span>
+                    <span class="widget-value">232k</span>
+                    <div class="widget-bar">
+                      <div class="widget-bar-fill" style="--fill: 78%"></div>
+                    </div>
+                  </div>
+                  <div class="screen-widget">
+                    <span class="widget-label">Clients</span>
+                    <span class="widget-value">59</span>
+                    <div class="widget-bar">
+                      <div class="widget-bar-fill" style="--fill: 65%"></div>
+                    </div>
+                  </div>
+                  <div class="screen-widget">
+                    <span class="widget-label">Performance Globale</span>
+                    <span class="widget-value">+34%</span>
+                    <div class="widget-bar">
+                      <div class="widget-bar-fill" style="--fill: 88%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== STREAMING SECTION ===== -->
+    <section class="section streaming" id="streaming">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Nouveautés Streaming</div>
+          <h2 class="section-title">
+            Divertissement <span class="gradient-text">Premium</span>
+          </h2>
+          <p class="section-subtitle">
+            Accédez aux meilleures plateformes de streaming avec nos offres
+            exclusives et compétitives.
+          </p>
+        </div>
+
+        <div class="streaming-cards">
+          <!-- Netflix -->
+          <div class="streaming-card reveal reveal-delay-1">
+            <div class="streaming-badge">🔥 Populaire</div>
+            <div class="streaming-icon">🎬</div>
+            <h3 class="streaming-name">Netflix Premium</h3>
+            <p class="streaming-desc">
+              Accès complet 4K UHD, jusqu'à 4 écrans simultanés, téléchargements
+              illimités.
+            </p>
+            <div class="streaming-price">
+              <span class="streaming-price-label">À partir de</span>
+              <span class="streaming-price-value">2 500 F</span>
+              <span class="streaming-price-unit">/mois</span>
+            </div>
+            <button
+              class="btn btn-primary btn-sm"
+              onclick="openStreamingOrder('Netflix Premium')"
+            >
+              Commander
+            </button>
+          </div>
+
+          <!-- Prime Video -->
+          <div class="streaming-card reveal reveal-delay-2">
+            <div class="streaming-badge">⭐ Exclusif</div>
+            <div class="streaming-icon">📺</div>
+            <h3 class="streaming-name">Prime Video</h3>
+            <p class="streaming-desc">
+              Films, séries et contenus originaux Amazon. Qualité Full HD & 4K
+              disponible.
+            </p>
+            <div class="streaming-price">
+              <span class="streaming-price-label">À partir de</span>
+              <span class="streaming-price-value">2 500 F</span>
+              <span class="streaming-price-unit">/mois</span>
+            </div>
+            <button
+              class="btn btn-primary btn-sm"
+              onclick="openStreamingOrder('Prime Video')"
+            >
+              Commander
+            </button>
           </div>
         </div>
 
-        <div>
-          <h4 class="footer-heading">Liens rapides</h4>
-          <div class="footer-links">
-            <a href="#hero">Accueil</a>
-            <a href="#streaming">Offres Streaming</a>
-            <a href="#why">Pourquoi nous</a>
-            <a href="#testimonials">Témoignages</a>
-            <a href="#faq">FAQ</a>
+        <!-- Comparison -->
+        <div class="comparison-table reveal">
+          <table>
+            <thead>
+              <tr>
+                <th>Fonctionnalité</th>
+                <th>Netflix Premium</th>
+                <th>Prime Video</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Qualité 4K UHD</td>
+                <td><span class="check-icon">✓</span></td>
+                <td><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td>Écrans simultanés</td>
+                <td>4 écrans</td>
+                <td>3 écrans</td>
+              </tr>
+              <tr>
+                <td>Téléchargements</td>
+                <td><span class="check-icon">✓</span></td>
+                <td><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td>Contenus originaux</td>
+                <td><span class="check-icon">✓</span></td>
+                <td><span class="check-icon">✓</span></td>
+              </tr>
+              <tr>
+                <td>Sans pub</td>
+                <td><span class="check-icon">✓</span></td>
+                <td><span class="check-icon">✓</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Social Proof -->
+        <div class="social-proof">
+          <div class="proof-card reveal reveal-delay-1">
+            <div class="proof-value" data-count="57">0</div>
+            <div class="proof-label">Abonnés actifs</div>
+          </div>
+          <div class="proof-card reveal reveal-delay-2">
+            <div class="proof-value" data-count="55">0</div>
+            <div class="proof-label">% Satisfaction</div>
+          </div>
+          <div class="proof-card reveal reveal-delay-3">
+            <div class="proof-value" data-count="24">0</div>
+            <div class="proof-label">Support 24h/24</div>
           </div>
         </div>
 
-        <div>
-          <h4 class="footer-heading">Contact</h4>
-          <div class="footer-contact-item">
-            <span>📞</span>
-            <a href="tel:+221779411495">77 941 14 95</a>
+        <!-- Reviews -->
+        <div class="reviews-row">
+          <div class="review-card reveal reveal-delay-1">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "Netflix fonctionne parfaitement depuis 6 mois. Aucun souci,
+              service fiable et rapide."
+            </p>
+            <span class="review-author">— Aminata Diop</span>
           </div>
-          <div class="footer-contact-item">
-            <span>📞</span>
-            <a href="tel:+221762708571">76 270 85 71</a>
+          <div class="review-card reveal reveal-delay-2">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "Prime Video activé en 10 minutes. Prix imbattable et support très
+              réactif par WhatsApp."
+            </p>
+            <span class="review-author">— Moussa Kaw</span>
           </div>
-          <div class="footer-contact-item">
+          <div class="review-card reveal reveal-delay-3">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">
+              "J'ai recommandé Eclore Service à toute ma famille. Service fiable
+              et professionnel."
+            </p>
+            <span class="review-author">— Fatou Sy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Nos Services</div>
+          <h2 class="section-title">
+            Des solutions <span class="gradient-text">sur mesure</span>
+          </h2>
+          <p class="section-subtitle">
+            De l'activation à la formation, nous couvrons tous vos besoins
+            numériques avec expertise.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Activation -->
+          <div
+            class="service-card reveal reveal-delay-1"
+            data-service="activation"
+            data-tilt
+          >
+            <div class="service-icon violet">🔑</div>
+            <h3 class="service-name">Activation de Comptes</h3>
+            <p class="service-desc">
+              Création et activation de tous types de comptes numériques,
+              personnels ou professionnels.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+
+          <!-- Installation -->
+          <div
+            class="service-card reveal reveal-delay-2"
+            data-service="installation"
+            data-tilt
+          >
+            <div class="service-icon cyan">💻</div>
+            <h3 class="service-name">Installation Logicielle</h3>
+            <p class="service-desc">
+              Installation Windows, Office, antivirus et logiciels
+              professionnels sur site ou à distance.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+
+          <!-- Studio -->
+          <div
+            class="service-card reveal reveal-delay-3"
+            data-service="studio"
+            data-tilt
+          >
+            <div class="service-icon pink">🎨</div>
+            <h3 class="service-name">Studio de Création</h3>
+            <p class="service-desc">
+              Logos, flyers, sites web, motion design. Des créations visuelles
+              haut de gamme.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+
+          <!-- Décodage -->
+          <div
+            class="service-card reveal reveal-delay-4"
+            data-service="decodage"
+            data-tilt
+          >
+            <div class="service-icon green">📱</div>
+            <h3 class="service-name">Décodage & Mobile</h3>
+            <p class="service-desc">
+              Déverrouillage et configuration de smartphones, tablettes et
+              appareils mobiles.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+
+          <!-- Formation -->
+          <div
+            class="service-card reveal reveal-delay-5"
+            data-service="formation"
+            data-tilt
+          >
+            <div class="service-icon orange">📚</div>
+            <h3 class="service-name">Formation Pro</h3>
+            <p class="service-desc">
+              Formations personnalisées en bureautique, design, développement et
+              marketing digital.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+
+          <!-- Streaming (renvoi) -->
+          <div
+            class="service-card reveal reveal-delay-5"
+            data-service="streaming-service"
+            data-tilt
+          >
+            <div class="service-icon blue">📡</div>
+            <h3 class="service-name">Streaming & IPTV</h3>
+            <p class="service-desc">
+              Abonnements Netflix, Prime Video, et solutions IPTV premium avec
+              support continu.
+            </p>
+            <span class="service-link">Commander <span>→</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Nos Atouts</div>
+          <h2 class="section-title">
+            Pourquoi choisir <span class="gradient-text">Eclore Service</span> ?
+          </h2>
+          <p class="section-subtitle">
+            Une agence structurée, avec une équipe dédiée à votre satisfaction.
+          </p>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-card reveal reveal-delay-1">
+            <div class="why-icon">👥</div>
+            <div class="why-value" data-count="59">0</div>
+            <div class="why-label">Clients accompagnés</div>
+          </div>
+          <div class="why-card reveal reveal-delay-2">
+            <div class="why-icon">⭐</div>
+            <div class="why-value" data-count="98" data-suffix="%">0</div>
+            <div class="why-label">Taux de satisfaction</div>
+          </div>
+          <div class="why-card reveal reveal-delay-3">
+            <div class="why-icon">⚡</div>
+            <div class="why-value" data-count="15" data-suffix="min">0</div>
+            <div class="why-label">Temps de réponse moyen</div>
+          </div>
+          <div class="why-card reveal reveal-delay-4">
+            <div class="why-icon">🏆</div>
+            <div class="why-value" data-count="3" data-suffix=" ans">0</div>
+            <div class="why-label">D'expertise certifiée</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">Témoignages</div>
+          <h2 class="section-title">
+            Ce que disent <span class="gradient-text">nos clients</span>
+          </h2>
+          <p class="section-subtitle">
+            La confiance de nos clients est notre plus grande fierté.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal reveal-delay-1">
+            <p class="testimonial-quote">
+              "Eclore Service dafa ma activél samay compte professionnel yépp ci
+              10h késsé. Service bu rafet te mat sëkk, ma ngi koy digle 100%. »
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AB</div>
+              <div>
+                <div class="testimonial-name">Abdoulaye B.</div>
+                <div class="testimonial-role">Entrepreneur</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-2">
+            <p class="testimonial-quote">
+              "Le studio de création a conçu mon logo et mes supports marketing.
+              Résultat professionnel, au-delà de mes attentes."
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">MN</div>
+              <div>
+                <div class="testimonial-name">Mariama N.</div>
+                <div class="testimonial-role">Gérante de boutique</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal-delay-3">
+            <p class="testimonial-quote">
+              "La formation bureautique m'a permis de décrocher un emploi.
+              L'équipe est patiente et très professionnelle."
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ID</div>
+              <div>
+                <div class="testimonial-name">Ibrahima D.</div>
+                <div class="testimonial-role">Comptable</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-label">FAQ</div>
+          <h2 class="section-title">
+            Questions <span class="gradient-text">fréquentes</span>
+          </h2>
+          <p class="section-subtitle">
+            Retrouvez les réponses aux questions les plus posées par nos
+            clients.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Comment passer commande ?
+              <span class="faq-chevron">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Cliquez sur le service souhaité, remplissez le formulaire de
+                commande et soumettez-le. Notre équipe vous contactera par
+                WhatsApp dans les 15 minutes pour finaliser votre demande.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-1">
+            <button class="faq-question">
+              Quels sont les modes de paiement acceptés ?
+              <span class="faq-chevron">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Nous acceptons Orange Money, Wave, Free Money, et les paiements
+                en espèces. Le paiement se fait avant ou après la livraison du
+                service selon le type de commande.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-2">
+            <button class="faq-question">
+              Les abonnements streaming sont-ils fiables ?
+              <span class="faq-chevron">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Oui, tous nos abonnements sont des comptes premium officiels
+                garantis. Nous assurons un support continu et un remplacement
+                gratuit en cas de problème.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-3">
+            <button class="faq-question">
+              Proposez-vous des services à distance ?
+              <span class="faq-chevron">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Absolument ! La majorité de nos services sont disponibles à
+                distance : installation logicielle via TeamViewer/AnyDesk,
+                activation de comptes, formations en ligne, et livraison
+                d'abonnements streaming.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item reveal reveal-delay-4">
+            <button class="faq-question">
+              Quel est le délai de livraison ?
+              <span class="faq-chevron">▾</span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Les activations et abonnements streaming sont livrés en 10–30
+                minutes. Les installations logicielles prennent 1 à 2 heures.
+                Les projets de création varient selon la complexité (1 à 7
+                jours).
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="contact">
+      <div class="container">
+        <!-- CTA -->
+        <div class="footer-cta reveal">
+          <h2 class="footer-cta-title">
+            Prêt à lancer <span class="gradient-text">votre projet</span> ?
+          </h2>
+          <p class="footer-cta-sub">
+            Contactez-nous et obtenez une réponse en moins de 15 minutes.
+          </p>
+          <a
+            href="https://wa.me/221779411495"
+            target="_blank"
+            class="btn btn-primary"
+          >
+            Nous contacter par WhatsApp
             <span>💬</span>
-            <a href="https://wa.me/221779411495" target="_blank">WhatsApp</a>
+          </a>
+        </div>
+
+        <!-- Main Footer -->
+        <div class="footer-main">
+          <div class="footer-brand">
+            <div class="logo">
+              <div class="logo-icon">✦</div>
+              <span>Eclore <span class="gradient-text">Service</span></span>
+            </div>
+            <p>
+              Agence de services numériques structurée avec une équipe dédiée.
+              Activation, création, formation et divertissement — tout en un
+              seul endroit.
+            </p>
           </div>
-          <div class="footer-contact-item">
-            <span>📍</span>
-            <span>Sénégal</span>
+
+          <div>
+            <h4 class="footer-heading">Services</h4>
+            <div class="footer-links">
+              <a href="#services">Activation de Comptes</a>
+              <a href="#services">Installation Logicielle</a>
+              <a href="#services">Studio de Création</a>
+              <a href="#services">Décodage & Mobile</a>
+              <a href="#services">Formation Pro</a>
+            </div>
           </div>
-          <div class="footer-socials">
-            <a href="#" class="footer-social" aria-label="Facebook">f</a>
-            <a href="#" class="footer-social" aria-label="Instagram">ig</a>
-            <a href="#" class="footer-social" aria-label="TikTok">tk</a>
+
+          <div>
+            <h4 class="footer-heading">Liens rapides</h4>
+            <div class="footer-links">
+              <a href="#hero">Accueil</a>
+              <a href="#streaming">Offres Streaming</a>
+              <a href="#why">Pourquoi nous</a>
+              <a href="#testimonials">Témoignages</a>
+              <a href="#faq">FAQ</a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-heading">Contact</h4>
+            <div class="footer-contact-item">
+              <span>📞</span>
+              <a href="tel:+221779411495">77 941 14 95</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>📞</span>
+              <a href="tel:+221762708571">76 270 85 71</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>💬</span>
+              <a href="https://wa.me/221779411495" target="_blank">WhatsApp</a>
+            </div>
+            <div class="footer-contact-item">
+              <span>📍</span>
+              <span>Sénégal</span>
+            </div>
+            <div class="footer-socials">
+              <a href="#" class="footer-social" aria-label="Facebook">f</a>
+              <a href="#" class="footer-social" aria-label="Instagram">ig</a>
+              <a href="#" class="footer-social" aria-label="TikTok">tk</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- Bottom -->
-      <div class="footer-bottom">
-        <span>© 2026 Eclore Service. Tous droits réservés.</span>
-        <span>Agence numérique structurée avec équipe dédiée</span>
+        <!-- Bottom -->
+        <div class="footer-bottom">
+          <span>© 2026 Eclore Service. Tous droits réservés.</span>
+          <span>Agence numérique structurée avec équipe dédiée</span>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- ===== MODALS ===== -->
+    <!-- ===== MODALS ===== -->
 
-  <!-- Activation Modal -->
-  <div class="modal-overlay" id="modal-activation">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">🔑 Activation de Comptes</h3>
-        <button class="modal-close" onclick="closeModal('activation')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Activation de Comptes')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Abdoulaye Ba" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Pays</label>
-            <select class="form-select" required>
-              <option value="">Sélectionnez un pays</option>
-              <option>Sénégal</option>
-              <option>Côte d'Ivoire</option>
-              <option>Mali</option>
-              <option>Guinée</option>
-              <option>Autre</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Type de compte</label>
-            <select class="form-select" id="activation-type" onchange="toggleDynamicField('activation')">
-              <option value="">Sélectionnez</option>
-              <option value="personnel">Personnel</option>
-              <option value="professionnel">Professionnel</option>
-            </select>
-          </div>
-          <div class="form-group dynamic-field" id="activation-pro-field">
-            <label class="form-label">Nom de l'entreprise</label>
-            <input type="text" class="form-input" placeholder="Nom de votre entreprise">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Niveau d'urgence</label>
-            <select class="form-select">
-              <option value="">Sélectionnez</option>
-              <option>Normal (24h)</option>
-              <option>Urgent (2h)</option>
-              <option>Très urgent (30min)</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Détails supplémentaires</label>
-            <textarea class="form-textarea" placeholder="Décrivez votre besoin..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Installation Modal -->
-  <div class="modal-overlay" id="modal-installation">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">💻 Installation Logicielle</h3>
-        <button class="modal-close" onclick="closeModal('installation')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Installation Logicielle')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Moussa Diallo" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Version Windows</label>
-            <select class="form-select" required>
-              <option value="">Sélectionnez</option>
-              <option>Windows 10</option>
-              <option>Windows 11</option>
-              <option>macOS</option>
-              <option>Autre</option>
-            </select>
-          </div>
-          <div class="form-row">
+    <!-- Activation Modal -->
+    <div class="modal-overlay" id="modal-activation">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">🔑 Activation de Comptes</h3>
+          <button class="modal-close" onclick="closeModal('activation')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Activation de Comptes')">
             <div class="form-group">
-              <label class="form-checkbox">
-                <input type="checkbox" id="install-antivirus" onchange="toggleInstallField('antivirus')">
-                Antivirus
-              </label>
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Abdoulaye Ba"
+                required
+              />
             </div>
             <div class="form-group">
-              <label class="form-checkbox">
-                <input type="checkbox" id="install-office" onchange="toggleInstallField('office')">
-                Microsoft Office
-              </label>
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
             </div>
-          </div>
-          <div class="form-group dynamic-field" id="install-antivirus-field">
-            <label class="form-label">Antivirus souhaité</label>
-            <select class="form-select">
-              <option>Kaspersky</option>
-              <option>Avast</option>
-              <option>Norton</option>
-              <option>Autre</option>
-            </select>
-          </div>
-          <div class="form-group dynamic-field" id="install-office-field">
-            <label class="form-label">Version Office</label>
-            <select class="form-select">
-              <option>Office 2021</option>
-              <option>Office 2024</option>
-              <option>Office 365</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Mode d'installation</label>
-            <select class="form-select">
-              <option>Sur site</option>
-              <option>À distance (TeamViewer/AnyDesk)</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Détails supplémentaires</label>
-            <textarea class="form-textarea" placeholder="Autres logiciels à installer..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Studio Modal -->
-  <div class="modal-overlay" id="modal-studio">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">🎨 Studio de Création</h3>
-        <button class="modal-close" onclick="closeModal('studio')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Studio de Création')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Fatou Sall" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Type de projet</label>
-            <select class="form-select" id="studio-type" onchange="toggleStudioField()" required>
-              <option value="">Sélectionnez</option>
-              <option value="logo">Logo / Identité visuelle</option>
-              <option value="flyer">Flyer / Affiche</option>
-              <option value="web">Site Web</option>
-              <option value="motion">Motion Design / Vidéo</option>
-              <option value="autre">Autre</option>
-            </select>
-          </div>
-          <div class="form-group dynamic-field" id="studio-web-field">
-            <label class="form-label">Type de site</label>
-            <select class="form-select">
-              <option>Landing page</option>
-              <option>Site vitrine</option>
-              <option>E-commerce</option>
-              <option>Portfolio</option>
-            </select>
-          </div>
-          <div class="form-row">
             <div class="form-group">
-              <label class="form-label">Budget estimé</label>
-              <select class="form-select">
-                <option value="">Sélectionnez</option>
-                <option>Moins de 25 000 F</option>
-                <option>25 000 – 50 000 F</option>
-                <option>50 000 – 100 000 F</option>
-                <option>Plus de 100 000 F</option>
+              <label class="form-label">Pays</label>
+              <select class="form-select" required>
+                <option value="">Sélectionnez un pays</option>
+                <option>Sénégal</option>
+                <option>Côte d'Ivoire</option>
+                <option>Mali</option>
+                <option>Guinée</option>
+                <option>Autre</option>
               </select>
             </div>
             <div class="form-group">
-              <label class="form-label">Deadline</label>
-              <input type="date" class="form-input">
+              <label class="form-label">Type de compte</label>
+              <select
+                class="form-select"
+                id="activation-type"
+                onchange="toggleDynamicField('activation')"
+              >
+                <option value="">Sélectionnez</option>
+                <option value="personnel">Personnel</option>
+                <option value="professionnel">Professionnel</option>
+              </select>
             </div>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Description du projet</label>
-            <textarea class="form-textarea" placeholder="Décrivez votre vision..." required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
+            <div class="form-group dynamic-field" id="activation-pro-field">
+              <label class="form-label">Nom de l'entreprise</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Nom de votre entreprise"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Niveau d'urgence</label>
+              <select class="form-select">
+                <option value="">Sélectionnez</option>
+                <option>Normal (24h)</option>
+                <option>Urgent (2h)</option>
+                <option>Très urgent (30min)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Détails supplémentaires</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Décrivez votre besoin..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Décodage Modal -->
-  <div class="modal-overlay" id="modal-decodage">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">📱 Décodage & Mobile</h3>
-        <button class="modal-close" onclick="closeModal('decodage')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Décodage & Mobile')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Omar Ndiaye" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Marque de l'appareil</label>
-            <select class="form-select" required>
-              <option value="">Sélectionnez</option>
-              <option>Samsung</option>
-              <option>iPhone / Apple</option>
-              <option>Huawei</option>
-              <option>Xiaomi</option>
-              <option>Autre</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Modèle précis</label>
-            <input type="text" class="form-input" placeholder="Ex: Samsung Galaxy A54">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Service demandé</label>
-            <select class="form-select">
-              <option>Déverrouillage réseau</option>
-              <option>Suppression FRP / Google Lock</option>
-              <option>Flash / Réinstallation système</option>
-              <option>Configuration complète</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Détails supplémentaires</label>
-            <textarea class="form-textarea" placeholder="Décrivez le problème..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
+    <!-- Installation Modal -->
+    <div class="modal-overlay" id="modal-installation">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">💻 Installation Logicielle</h3>
+          <button class="modal-close" onclick="closeModal('installation')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Installation Logicielle')">
+            <div class="form-group">
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Moussa Diallo"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Version Windows</label>
+              <select class="form-select" required>
+                <option value="">Sélectionnez</option>
+                <option>Windows 10</option>
+                <option>Windows 11</option>
+                <option>macOS</option>
+                <option>Ubuntu</option>
+                <option>Kali linux</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-checkbox">
+                  <input
+                    type="checkbox"
+                    id="install-antivirus"
+                    onchange="toggleInstallField('antivirus')"
+                  />
+                  Antivirus
+                </label>
+              </div>
+              <div class="form-group">
+                <label class="form-checkbox">
+                  <input
+                    type="checkbox"
+                    id="install-office"
+                    onchange="toggleInstallField('office')"
+                  />
+                  Microsoft Office
+                </label>
+              </div>
+            </div>
+            <div class="form-group dynamic-field" id="install-antivirus-field">
+              <label class="form-label">Antivirus souhaité</label>
+              <select class="form-select">
+                <option>Kaspersky</option>
+                <option>Avast</option>
+                <option>Norton</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group dynamic-field" id="install-office-field">
+              <label class="form-label">Version Office</label>
+              <select class="form-select">
+                <option>Office 2021</option>
+                <option>Office 2024</option>
+                <option>Office 2019</option>
+                <option>Office 365</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Mode d'installation</label>
+              <select class="form-select">
+                <option>Sur site</option>
+                <option>À distance (TeamViewer/AnyDesk)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Détails supplémentaires</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Autres logiciels à installer..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Formation Modal -->
-  <div class="modal-overlay" id="modal-formation">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">📚 Formation Pro</h3>
-        <button class="modal-close" onclick="closeModal('formation')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Formation Pro')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Aissatou Diop" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Domaine de formation</label>
-            <select class="form-select" required>
-              <option value="">Sélectionnez</option>
-              <option>Bureautique (Word, Excel, PowerPoint)</option>
-              <option>Design graphique (Photoshop, Illustrator)</option>
-              <option>Développement Web</option>
-              <option>Marketing Digital</option>
-              <option>Montage Vidéo</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Niveau actuel</label>
-            <select class="form-select">
-              <option>Débutant</option>
-              <option>Intermédiaire</option>
-              <option>Avancé</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Mode de formation</label>
-            <select class="form-select">
-              <option>En présentiel</option>
-              <option>En ligne (Zoom/Meet)</option>
-              <option>Mixte</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Objectif de la formation</label>
-            <textarea class="form-textarea" placeholder="Que souhaitez-vous apprendre ?"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Streaming Service Modal -->
-  <div class="modal-overlay" id="modal-streaming-service">
-    <div class="modal">
-      <div class="modal-header">
-        <h3 class="modal-title">📡 Streaming & IPTV</h3>
-        <button class="modal-close" onclick="closeModal('streaming-service')">✕</button>
-      </div>
-      <div class="modal-body">
-        <form onsubmit="handleSubmit(event, 'Streaming & IPTV')">
-          <div class="form-group">
-            <label class="form-label">Votre nom complet</label>
-            <input type="text" class="form-input" placeholder="Ex: Mamadou Fall" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Numéro WhatsApp</label>
-            <input type="tel" class="form-input" placeholder="Ex: 77 XXX XX XX" required>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Plateforme souhaitée</label>
-            <select class="form-select" required>
-              <option value="">Sélectionnez</option>
-              <option>Netflix Premium</option>
-              <option>Prime Video</option>
-              <option>Disney+</option>
-              <option>IPTV Premium</option>
-              <option>Pack Multiple</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Durée d'abonnement</label>
-            <select class="form-select">
-              <option>1 mois</option>
-              <option>3 mois</option>
-              <option>6 mois</option>
-              <option>12 mois</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label class="form-label">Remarques</label>
-            <textarea class="form-textarea" placeholder="Précisions sur votre commande..."></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary modal-submit">Envoyer la demande →</button>
-        </form>
+    <!-- Studio Modal -->
+    <div class="modal-overlay" id="modal-studio">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">🎨 Studio de Création</h3>
+          <button class="modal-close" onclick="closeModal('studio')">✕</button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Studio de Création')">
+            <div class="form-group">
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Fatou Sall"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Type de projet</label>
+              <select
+                class="form-select"
+                id="studio-type"
+                onchange="toggleStudioField()"
+                required
+              >
+                <option value="">Sélectionnez</option>
+                <option value="logo">Logo / Identité visuelle</option>
+                <option value="flyer">Flyer / Affiche</option>
+                <option value="web">Site Web</option>
+                <option value="motion">Motion Design / Vidéo</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="form-group dynamic-field" id="studio-web-field">
+              <label class="form-label">Type de site</label>
+              <select class="form-select">
+                <option>Landing page</option>
+                <option>Site vitrine</option>
+                <option>E-commerce</option>
+                <option>Portfolio</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Budget estimé</label>
+                <select class="form-select">
+                  <option value="">Sélectionnez</option>
+                  <option>Moins de 25 000 F</option>
+                  <option>25 000 – 50 000 F</option>
+                  <option>50 000 – 100 000 F</option>
+                  <option>Plus de 100 000 F</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Deadline</label>
+                <input type="date" class="form-input" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Description du projet</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Décrivez votre vision..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- ===== WHATSAPP FLOAT ===== -->
-  <a href="https://wa.me/221779411495" target="_blank" class="whatsapp-float" aria-label="WhatsApp">
-    💬
-  </a>
+    <!-- Décodage Modal -->
+    <div class="modal-overlay" id="modal-decodage">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">📱 Décodage & Mobile</h3>
+          <button class="modal-close" onclick="closeModal('decodage')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Décodage & Mobile')">
+            <div class="form-group">
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Omar Ndiaye"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Marque de l'appareil</label>
+              <select class="form-select" required>
+                <option value="">Sélectionnez</option>
+                <option>Samsung</option>
+                <option>iPhone / Apple</option>
+                <option>Huawei</option>
+                <option>Xiaomi</option>
+                <option>Autre</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Modèle précis</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Samsung Galaxy A54"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Service demandé</label>
+              <select class="form-select">
+                <option>Déverrouillage réseau</option>
+                <option>Suppression FRP / Google Lock</option>
+                <option>Flash / Réinstallation système</option>
+                <option>Configuration complète</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Détails supplémentaires</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Décrivez le problème..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-</body>
+    <!-- Formation Modal -->
+    <div class="modal-overlay" id="modal-formation">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">📚 Formation Pro</h3>
+          <button class="modal-close" onclick="closeModal('formation')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Formation Pro')">
+            <div class="form-group">
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Aissatou Diop"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Domaine de formation</label>
+              <select class="form-select" required>
+                <option value="">Sélectionnez</option>
+                <option>Bureautique (Word, Excel, PowerPoint)</option>
+                <option>Design graphique (Photoshop, Illustrator)</option>
+                <option>Développement Web</option>
+                <option>Marketing Digital</option>
+                <option>Montage Vidéo</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Niveau actuel</label>
+              <select class="form-select">
+                <option>Débutant</option>
+                <option>Intermédiaire</option>
+                <option>Avancé</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Mode de formation</label>
+              <select class="form-select">
+                <option>En présentiel</option>
+                <option>En ligne (Zoom/Meet)</option>
+                <option>Mixte</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Objectif de la formation</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Que souhaitez-vous apprendre ?"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Streaming Service Modal -->
+    <div class="modal-overlay" id="modal-streaming-service">
+      <div class="modal">
+        <div class="modal-header">
+          <h3 class="modal-title">📡 Streaming & IPTV</h3>
+          <button class="modal-close" onclick="closeModal('streaming-service')">
+            ✕
+          </button>
+        </div>
+        <div class="modal-body">
+          <form onsubmit="handleSubmit(event, 'Streaming & IPTV')">
+            <div class="form-group">
+              <label class="form-label">Votre nom complet</label>
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Ex: Mamadou Fall"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Numéro WhatsApp</label>
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Ex: 77 XXX XX XX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label">Plateforme souhaitée</label>
+              <select class="form-select" required>
+                <option value="">Sélectionnez</option>
+                <option>Netflix Premium</option>
+                <option>Prime Video</option>
+                <option>Disney+</option>
+                <option>IPTV Premium</option>
+                <option>Pack Multiple</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Durée d'abonnement</label>
+              <select class="form-select">
+                <option>1 mois</option>
+                <option>3 mois</option>
+                <option>6 mois</option>
+                <option>12 mois</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Remarques</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Précisions sur votre commande..."
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary modal-submit">
+              Envoyer la demande →
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== WHATSAPP FLOAT ===== -->
+    <a
+      href="https://wa.me/221779411495"
+      target="_blank"
+      class="whatsapp-float"
+      aria-label="WhatsApp"
+    >
+      💬
+    </a>
+
+    <script src="script.js"></script>
+  </body>
 </html>
